@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros Magicos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center bg-danger">Numeros Magicos</h1>
+        <div class="row mt-5">
+            <div class="col-md-4 offset-md-4">
+                <button class="btn btn-primary btn-block" onclick="comenzarJuego()">Generar Numero Nuevo</button>
+                <div class="form-group">
+                    <label for="numeroInput">Ingresa un número:</label>
+                    <input type="number" class="form-control" id="numeroInput" min="1" max="25" step="1">
+                </div>
+                <button class="btn btn-success btn-block mt-2" onclick="adivinarNumero()">Enviar Respuesta</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="js/code.js"></script>
+</body>
+</html>
