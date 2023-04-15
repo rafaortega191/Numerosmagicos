@@ -1,7 +1,7 @@
 # Numerosmagicos
 ejercicio 1 del tp5 Números mágicos
-Trabajo Practico N5.
-EJERCICIOS EN JAVASCRIPT.
+EJERCICIOS CON DOM Y BOM
+EJERCICIO DE NUMEROS MAGICOS
 
 
 Pre-requisitos
